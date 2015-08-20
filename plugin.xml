@@ -11,7 +11,7 @@
         <engine name="cordova" version=">=3.0.0" />
     </engines>
 	
-    <js-module src="www/midiplayer.js" name="MidiPlayer">
+    <js-module src="midiplayer.js" name="MidiPlayer">
         <clobbers target="MidiPlayer" />
     </js-module>
 
@@ -22,7 +22,7 @@
             <param name="android-package" value="normannit.midiplayer.MidiPlayer"/>
           </feature>
         </config-file>
-        <source-file src="src/android/MidiPlayer.java" target-dir="src/normannit/midiplayer/"/>
+        <source-file src="src/android/MidiPlayer.java"/>
   </platform>
 
     <!-- ios -->
