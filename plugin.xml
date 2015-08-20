@@ -22,7 +22,7 @@
             <param name="android-package" value="normannit.midiplayer.MidiPlayer"/>
           </feature>
         </config-file>
-        <source-file src="src/android/MidiPlayer.java"/>
+        <source-file src="src/android/MidiPlayer.java" target-dir="src/normannit/midiplayer/" />
   </platform>
 
     <!-- ios -->
